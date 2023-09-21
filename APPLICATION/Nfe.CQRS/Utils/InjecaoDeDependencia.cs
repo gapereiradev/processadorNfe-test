@@ -10,7 +10,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Nfe.CQRS.Command;
 using Nfe.CQRS.Queries;
 
-namespace Nfe.API.Utils
+namespace Nfe.CQRS.Utils
 {
     public static class InjecaoDependencia
     {

@@ -7,7 +7,7 @@ namespace CORE.Entidades
         public NfeAlteracoes(string nfeId)
         {
             NfeId = nfeId;
-            DataAlteracao = DateTime.Now;
+            DataAlteracao = DateTime.Now.AddHours(-3);
             ValoresAlterados = new List<ValorAlteradoNfe>();
         }
 

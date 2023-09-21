@@ -71,6 +71,8 @@ namespace Nfe.CQRS.Queries
                     var alteracoesMap = _mapper.Map<List<ValorAlteradoNfeRelatorioComparativoAlteracoesNfe>>(alt.ValoresAlterados);
                     alteracoesMap.ForEach(t => t.NfId = alt.NfeId);
                     alteracoes.AddRange(alteracoesMap);
+
+
                 }
 
                 relatorio.Alteracoes= alteracoes;
